@@ -1,0 +1,17 @@
+{
+  "name": "Load jQuery",
+  "description": "Load jQuery on this page",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Load jQuery on this page",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
